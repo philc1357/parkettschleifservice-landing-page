@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parkett schleifen &amp; versiegeln | Parkettschleifmaschinen</title>
+<meta name="description" content="Professioneller Parkett- und Bodenschliff in Leipzig: Schleifen, Versiegeln, Ölen und Renovieren von Holzböden. Staubarm, schnell und in Meisterqualität.">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Parkettschleifmaschinen">
+<meta property="og:title" content="Parkett schleifen &amp; versiegeln | Parkettschleifmaschinen">
+<meta property="og:description" content="Professioneller Parkett- und Bodenschliff: Schleifen, Versiegeln, Ölen und Renovieren von Holzböden.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   Parkettschleifmaschinen – Landing Page
+   Warmes Handwerker-Design (Eiche / Nussbaum / Amber auf Creme)
+   ============================================================ */
+
+:root{
+  --accent:#b5642a;
+  --accent-deep:#974f1d;
+  --accent-soft:#f1e3d2;
+  --radius:16px;
+  --serif:'Newsreader', Georgia, serif;
+  --sans:'Hanken Grotesk', system-ui, sans-serif;
+
+  --bg:#f4ecde;
+  --card:#fbf6ec;
+  --ink:#241910;
+  --ink-soft:#5b4a3b;
+  --muted:#6a5847;
+  --line:#ece0cc;
+}
+
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+::selection{background:var(--accent-soft);}
+a{color:inherit;}
+img{max-width:100%;display:block;}
+
+.container{max-width:1200px;margin:0 auto;padding:0 28px;}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-weight:600;text-decoration:none;border-radius:var(--radius);
+  transition:background .2s ease, transform .2s ease, color .2s ease;
+  cursor:pointer;
+}
+.btn-primary{background:var(--accent);color:#fff;border:1px solid var(--accent);padding:16px 28px;font-size:16.5px;}
+.btn-primary:hover{background:var(--accent-deep);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--ink);border:1px solid #d9c8af;padding:16px 28px;font-size:16.5px;}
+.btn-outline:hover{background:var(--card);}
+.btn-sm{padding:11px 20px;font-size:15px;border-radius:999px;background:var(--accent);color:#fff;}
+.btn-sm:hover{background:var(--accent-deep);}
+
+.link-arrow{color:var(--accent-deep);font-weight:600;text-decoration:none;border-bottom:1.5px solid var(--accent);padding-bottom:3px;white-space:nowrap;}
+
+/* ---------- Eyebrow / Headings ---------- */
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-deep);}
+h1,h2,h3{font-family:var(--serif);color:var(--ink);margin:0;font-weight:500;letter-spacing:-.02em;}
+.section-h2{font-size:clamp(32px,4vw,46px);line-height:1.08;}
+
+/* ---------- Navigation ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(244,236,222,.86);backdrop-filter:blur(12px);border-bottom:1px solid #e4d6bf;}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:16px;padding-bottom:16px;}
+.brand{font-family:var(--serif);font-size:23px;font-weight:600;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:11px;}
+.brand-mark{width:30px;height:30px;border-radius:9px;background:var(--accent);display:inline-flex;align-items:center;justify-content:center;color:#fff;font-family:var(--sans);font-weight:700;font-size:15px;}
+.nav-right{display:flex;align-items:center;gap:30px;flex-wrap:wrap;}
+.nav-menu{list-style:none;display:flex;gap:28px;margin:0;padding:0;font-size:15.5px;font-weight:500;}
+.nav-menu a{color:var(--ink-soft);text-decoration:none;transition:color .2s ease;}
+.nav-menu a:hover{color:var(--accent-deep);}
+
+/* ---------- Hero ---------- */
+.hero{background:linear-gradient(180deg,#f7f0e3 0%,var(--bg) 100%);}
+.hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:clamp(36px,5vw,64px);align-items:center;padding:clamp(48px,7vw,96px) 0 clamp(64px,8vw,110px);}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:12px;margin-bottom:24px;}
+.hero-rule{width:34px;height:1px;background:var(--accent);}
+.hero h1{font-size:clamp(40px,5.6vw,68px);line-height:1.04;margin-bottom:22px;color:#241910;}
+.hero h1 em{font-style:italic;color:var(--accent-deep);}
+.hero-lead{font-size:clamp(17px,1.5vw,20px);color:var(--ink-soft);max-width:30em;margin:0 0 34px;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px;}
+.trust{display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:14.5px;color:#7a6650;font-weight:500;}
+.trust .sep{height:14px;width:1px;background:#d4c2a8;}
+
+.hero-figure{position:relative;}
+.hero-frame{position:absolute;inset:18px -18px -18px 18px;border:1.5px solid var(--accent);border-radius:calc(var(--radius) + 8px);opacity:.5;}
+.media{position:relative;border-radius:var(--radius);overflow:hidden;background:repeating-linear-gradient(135deg,#e6d6bb 0 14px,#eee0c8 14px 28px);display:flex;align-items:center;justify-content:center;}
+.hero-media{aspect-ratio:4/5;border-radius:calc(var(--radius) + 8px);box-shadow:0 30px 60px -30px rgba(60,40,20,.45);}
+.media-label{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:.08em;color:#7c6a52;background:rgba(255,255,255,.72);padding:8px 14px;border-radius:8px;}
+
+/* ---------- Stats ---------- */
+.stats{background:var(--ink);color:var(--bg);}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px;padding:clamp(40px,5vw,64px) 0;}
+.stat{text-align:center;}
+.stat-num{font-family:var(--serif);font-size:clamp(38px,4.5vw,54px);font-weight:600;line-height:1;color:#e7b988;}
+.stat-label{margin-top:8px;font-size:14.5px;color:#bca890;}
+
+/* ---------- Section ---------- */
+.section{padding:clamp(64px,9vw,120px) 0;}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:48px;}
+.section-head .eyebrow{margin-bottom:14px;}
+.section-head .section-h2{max-width:14em;}
+
+/* ---------- Cards grid ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:34px 30px;transition:transform .25s ease, box-shadow .25s ease;}
+.card:hover{transform:translateY(-4px);box-shadow:0 24px 40px -28px rgba(60,40,20,.4);}
+.card-num{font-family:var(--serif);font-size:30px;color:var(--accent);margin-bottom:18px;}
+.card h3{font-size:23px;font-weight:600;margin-bottom:12px;}
+.card p{margin:0;color:var(--muted);font-size:16px;}
+
+/* ---------- Ablauf (process) ---------- */
+.process{background:var(--accent-soft);}
+.process-head{text-align:center;margin-bottom:54px;}
+.process-head .eyebrow{display:block;margin-bottom:14px;}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;}
+.step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;}
+.step-num{width:46px;height:46px;border-radius:50%;background:var(--accent);color:#fff;font-family:var(--serif);font-size:20px;font-weight:600;display:flex;align-items:center;justify-content:center;margin-bottom:18px;}
+.step h3{font-size:20px;font-weight:600;margin-bottom:8px;}
+.step p{margin:0;color:var(--muted);font-size:15.5px;}
+
+/* ---------- Warum (USP) ---------- */
+.usp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:clamp(40px,5vw,72px);align-items:center;}
+.usp-media{aspect-ratio:5/4;box-shadow:0 28px 50px -32px rgba(60,40,20,.45);}
+.usp h2{font-size:clamp(32px,4vw,46px);line-height:1.08;margin-bottom:28px;}
+.checklist{list-style:none;margin:0 0 32px;padding:0;display:flex;flex-direction:column;gap:18px;}
+.checklist li{display:flex;gap:14px;align-items:flex-start;font-size:16.5px;color:#4a3a2c;}
+.checklist strong{color:var(--ink);}
+.check{flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent-soft);color:var(--accent-deep);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-top:2px;}
+.usp .eyebrow{display:block;margin-bottom:14px;}
+
+/* ---------- Referenzen ---------- */
+.refs{background:#efe4d2;}
+.ref-card{background:var(--card);border:1px solid #e6d8c2;border-radius:var(--radius);overflow:hidden;transition:transform .25s ease, box-shadow .25s ease;}
+.ref-card:hover{transform:translateY(-4px);box-shadow:0 24px 44px -30px rgba(60,40,20,.45);}
+.ref-media{aspect-ratio:3/2;background:repeating-linear-gradient(135deg,#e3d3b6 0 14px,#ecdec5 14px 28px);display:flex;align-items:center;justify-content:center;}
+.ref-media .media-label{font-size:11.5px;padding:7px 12px;}
+.ref-body{padding:22px 24px;}
+.ref-body h3{font-size:19px;font-weight:600;margin-bottom:8px;}
+.ref-body p{margin:0;color:var(--muted);font-size:15px;}
+
+/* ---------- CTA ---------- */
+.cta{padding:clamp(64px,9vw,110px) 0;}
+.cta-box{max-width:1100px;margin:0 auto;background:var(--accent);border-radius:calc(var(--radius) + 8px);padding:clamp(40px,6vw,68px);color:#fff;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:center;box-shadow:0 30px 60px -34px rgba(120,60,20,.6);}
+.cta-box h2{color:#fff;font-size:clamp(30px,4vw,44px);line-height:1.08;margin-bottom:14px;}
+.cta-box p{margin:0;font-size:17px;color:rgba(255,255,255,.9);max-width:28em;}
+.cta-actions{display:flex;flex-direction:column;gap:14px;align-items:flex-start;}
+.cta-phone{font-family:var(--serif);font-size:clamp(26px,3vw,34px);font-weight:600;color:#fff;text-decoration:none;}
+.btn-light{background:var(--card);color:var(--accent-deep);font-weight:700;font-size:16px;padding:15px 28px;border-radius:var(--radius);text-decoration:none;display:inline-flex;align-items:center;gap:10px;transition:transform .2s ease;}
+.btn-light:hover{transform:translateY(-2px);}
+
+/* ---------- Footer ---------- */
+.site-footer{background:var(--ink);color:#c9b69d;padding:clamp(48px,6vw,76px) 0 36px;}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px;}
+.footer-brand{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--bg);margin-bottom:12px;}
+.footer-grid p{margin:0;font-size:15px;color:#a8917a;}
+.footer-grid h5{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#8a745d;margin:0 0 16px;font-weight:600;}
+.footer-grid address{font-style:normal;font-size:15px;line-height:1.9;color:#c9b69d;}
+.footer-grid address a{color:#e7b988;text-decoration:none;}
+.footer-grid .hours{font-size:15px;line-height:1.9;color:#c9b69d;}
+.footer-links{list-style:none;margin:0;padding:0;font-size:15px;line-height:2;}
+.footer-links a{color:#c9b69d;text-decoration:none;transition:color .2s ease;}
+.footer-links a:hover{color:#e7b988;}
+.footer-bottom{max-width:1200px;margin:40px auto 0;padding:24px 28px 0;border-top:1px solid #3a2a1c;text-align:center;font-size:13.5px;color:#8a745d;}
+</style>
+</head>
+<body>
+
+<!-- ===================== Navigation ===================== -->
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#" class="brand"><span class="brand-mark">P</span> Parkettschleifmaschinen</a>
+    <div class="nav-right">
+      <ul class="nav-menu">
+        <li><a href="#leistungen">Leistungen</a></li>
+        <li><a href="#ablauf">Ablauf</a></li>
+        <li><a href="#warum">Wer wir sind</a></li>
+        <li><a href="#referenzen">Referenzen</a></li>
+      </ul>
+      <a href="#kontakt" class="btn btn-sm">Angebot anfragen</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ===================== Hero ===================== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-eyebrow">
+        <span class="hero-rule"></span>
+        <span class="eyebrow">Parkett- &amp; Bodenschliff · Leipzig</span>
+      </div>
+      <h1>Holzböden, die wieder<br><em>strahlen.</em></h1>
+      <p class="hero-lead">Ihr Spezialist für Parkett- und Bodenschliff. Mit modernen, staubarmen Schleifmaschinen und langlebiger Versiegelung bringen wir Parkett und Dielen in Meisterqualität zurück.</p>
+      <div class="hero-cta">
+        <a href="#kontakt" class="btn btn-primary">Kostenloses Angebot anfragen →</a>
+        <a href="#leistungen" class="btn btn-outline">Unsere Leistungen</a>
+      </div>
+      <div class="trust">
+        <span>★★★★★</span><span class="sep"></span>
+        <span>Meisterqualität</span><span class="sep"></span>
+        <span>Staubarm</span><span class="sep"></span>
+        <span>Faire Festpreise</span>
+      </div>
+    </div>
+    <div class="hero-figure">
+      <div class="hero-frame"></div>
+      <!-- Bild ersetzen: <img src="imgs/schleifmaschine-laegler-hummel.png" alt="..."> -->
+      <div class="media hero-media"><span class="media-label">FOTO · Schleifmaschine Lägler Hummel</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Stats ===================== -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><div class="stat-num">15+</div><div class="stat-label">Jahre Handwerk</div></div>
+    <div class="stat"><div class="stat-num">25.000</div><div class="stat-label">m² Parkett veredelt</div></div>
+    <div class="stat"><div class="stat-num">100 %</div><div class="stat-label">staubarmes Arbeiten</div></div>
+    <div class="stat"><div class="stat-num">UV</div><div class="stat-label">sofort begehbar</div></div>
+  </div>
+</section>
+
+<!-- ===================== Leistungen ===================== -->
+<section id="leistungen" class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Was wir können</div>
+        <h2 class="section-h2">Vom rohen Schliff bis zur fertigen Oberfläche</h2>
+      </div>
+      <a href="#kontakt" class="link-arrow">Alle Leistungen →</a>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">01</div>
+        <h3>Parkett &amp; Dielen schleifen</h3>
+        <p>Professioneller Schliff von Parkett, Dielen und Landhausdielen mit staubarmen Maschinen – für ein makelloses, ebenes Ergebnis.</p>
+      </div>
+      <div class="card">
+        <div class="card-num">02</div>
+        <h3>Versiegelung, Öl &amp; Lack</h3>
+        <p>Langlebige Oberflächenbehandlung – ob strapazierfähiger Lack, natürliches Öl oder Hartwachs, ganz nach Ihren Wünschen.</p>
+      </div>
+      <div class="card">
+        <div class="card-num">03</div>
+        <h3>UV-Sofortversiegelung</h3>
+        <p>Mit moderner UV-Technik sind Ihre Böden sofort nach der Behandlung begehbar – schnell, geruchsarm und sauber.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Ablauf ===================== -->
+<section id="ablauf" class="section process">
+  <div class="container">
+    <div class="process-head">
+      <span class="eyebrow">So arbeiten wir</span>
+      <h2 class="section-h2">In vier Schritten zum neuen Boden</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h3>Beratung &amp; Festpreis</h3><p>Wir begutachten Ihren Boden vor Ort und erstellen ein transparentes Angebot ohne versteckte Kosten.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Staubarm schleifen</h3><p>Moderne Absaugtechnik hält Ihre Räume sauber, während wir den Boden präzise und gleichmäßig abschleifen.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Versiegeln &amp; ölen</h3><p>Lack, Öl oder Hartwachs – wir veredeln die Oberfläche passend zur Beanspruchung und Optik Ihres Raums.</p></div>
+      <div class="step"><div class="step-num">4</div><h3>Sofort begehbar</h3><p>Dank UV-Sofortversiegelung können Sie Ihren neuen Boden ohne lange Wartezeit direkt wieder nutzen.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Warum wir ===================== -->
+<section id="warum" class="section">
+  <div class="container usp-grid usp">
+    <div class="hero-figure">
+      <!-- Bild ersetzen: <img src="imgs/schleifmaschine-laegler-hummel.png" alt="..."> -->
+      <div class="media usp-media"><span class="media-label">FOTO · Lägler Hummel mit Staubsack</span></div>
+    </div>
+    <div>
+      <div class="eyebrow">Warum wir</div>
+      <h2>Handwerk, dem Sie vertrauen können</h2>
+      <ul class="checklist">
+        <li><span class="check">✓</span><span><strong>Meisterqualität</strong> – jahrelange Erfahrung im Parketthandwerk.</span></li>
+        <li><span class="check">✓</span><span><strong>Staubarmes Arbeiten</strong> – moderne Absaugtechnik für saubere Räume.</span></li>
+        <li><span class="check">✓</span><span><strong>Schnell begehbar</strong> – dank UV-Sofortversiegelung.</span></li>
+        <li><span class="check">✓</span><span><strong>Faire Festpreise</strong> – transparente Angebote ohne versteckte Kosten.</span></li>
+      </ul>
+      <a href="#kontakt" class="btn btn-primary">Mehr über uns →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Referenzen ===================== -->
+<section id="referenzen" class="section refs">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Ausgewählte Projekte</div>
+        <h2 class="section-h2">Referenzen</h2>
+      </div>
+      <a href="#kontakt" class="link-arrow">Weitere Referenzen →</a>
+    </div>
+    <div class="cards">
+      <div class="ref-card">
+        <div class="ref-media"><span class="media-label">FOTO · Eichenparkett</span></div>
+        <div class="ref-body"><h3>Altbau-Sanierung, Leipzig</h3><p>Kompletter Neuschliff und UV-Versiegelung von 120 m² historischem Eichenparkett.</p></div>
+      </div>
+      <div class="ref-card">
+        <div class="ref-media"><span class="media-label">FOTO · Bürogebäude</span></div>
+        <div class="ref-body"><h3>Bürogebäude, Leipzig</h3><p>Renovierung stark beanspruchter Böden im laufenden Betrieb – über mehrere Etagen.</p></div>
+      </div>
+      <div class="ref-card">
+        <div class="ref-media"><span class="media-label">FOTO · Dielenboden</span></div>
+        <div class="ref-body"><h3>Privatwohnung, Leipzig</h3><p>Aufarbeitung von Dielenböden inklusive geölter Naturoberfläche.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section id="kontakt" class="cta">
+  <div class="container">
+    <div class="cta-box">
+      <div>
+        <h2>Bereit für neue Böden?</h2>
+        <p>Fordern Sie jetzt Ihr kostenloses Festpreis-Angebot an – wir melden uns schnellstmöglich bei Ihnen.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:015228948377" class="cta-phone">01522 8948377</a>
+        <a href="/cdn-cgi/l/email-protection#86efe8e0e9c6e3fee7ebf6eae3a8e2e3" class="btn-light">Angebot per E-Mail anfragen →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== Footer ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">Parkettschleifmaschinen</div>
+      <p>Ihr Spezialist für Parkett- und Bodenschliff in Leipzig und Umgebung.</p>
+    </div>
+    <div>
+      <h5>Kontakt</h5>
+      <address>
+        William-Zipperer-Straße 59<br>
+        04177 Leipzig<br>
+        Tel.: <a href="tel:015228948377">01522 8948377</a><br>
+        E-Mail: <a href="/cdn-cgi/l/email-protection#b4dddad2dbf4d1ccd5d9c4d8d19ad0d1"><span class="__cf_email__" data-cfemail="b6dfd8d0d9f6d3ced7dbc6dad398d2d3">[email&#160;protected]</span></a>
+      </address>
+    </div>
+    <div>
+      <h5>Öffnungszeiten</h5>
+      <p class="hours">Mo – Fr&nbsp;&nbsp;08:00 – 18:00<br>Sa&nbsp;&nbsp;10:00 – 15:00<br>So&nbsp;&nbsp;geschlossen</p>
+    </div>
+    <div>
+      <h5>Rechtliches</h5>
+      <ul class="footer-links">
+        <li><a href="#">Impressum</a></li>
+        <li><a href="#">Datenschutz</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Parkettschleifmaschinen. Alle Rechte vorbehalten.</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
