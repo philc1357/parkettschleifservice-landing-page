@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap (Domain nach Live-Gang anpassen)
+Sitemap: https://www.example.de/sitemap.xml
