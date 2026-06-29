@@ -31,7 +31,6 @@
                         <?php foreach ($site['opening_hours'] as $oh): ?>
                             <?= htmlspecialchars($oh['day']) ?>&nbsp;&nbsp;<?= htmlspecialchars($oh['time']) ?><br>
                         <?php endforeach; ?>
-                        Sonntag&nbsp;&nbsp;geschlossen
                     </p>
                 </div>
 
