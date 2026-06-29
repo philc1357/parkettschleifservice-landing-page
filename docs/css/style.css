@@ -284,7 +284,7 @@ img { max-width: 100%; }
    Statistik-Leiste (dunkel)
    ============================================================================ */
 .stats {
-    background: url('imgs/parkett-struktur-dunkel.jpg') center/cover no-repeat;
+    background: url('../imgs/parkett-struktur-dunkel.jpg') center/cover no-repeat;
     color: var(--bg);
     position: relative;
 }
@@ -478,7 +478,7 @@ img { max-width: 100%; }
    Page-Header (Unterseiten) – Foto-Overlay
    ============================================================================ */
 .page-header {
-    background: url('imgs/parkett-struktur-dunkel.jpg') center/cover no-repeat;
+    background: url('../imgs/parkett-struktur-dunkel.jpg') center/cover no-repeat;
     position: relative;
     padding: clamp(48px, 7vw, 80px) 0 clamp(40px, 6vw, 64px);
     text-align: center;
