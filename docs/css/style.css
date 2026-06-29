@@ -654,6 +654,16 @@ img { max-width: 100%; }
 .footer-bottom a:hover { color: #e7b988; }
 
 /* =============================================================================
+   Mobile – Hero-Rahmen darf nicht über den Viewport hinausragen
+   ============================================================================ */
+@media (max-width: 767px) {
+    .hero-figure {
+        margin-right: 18px;
+        margin-bottom: 18px;
+    }
+}
+
+/* =============================================================================
    Barrierefreiheit – sichtbarer Fokus
    ============================================================================ */
 a:focus-visible,
